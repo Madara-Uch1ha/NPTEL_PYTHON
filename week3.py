@@ -34,4 +34,11 @@ i=2
 c=a[i:len(a)]
 print(c)'''
 print(remdup([3,1,3,5]))
+#ERROR
+'''Traceback (most recent call last):
+  File "z:\Python\GitRep\NPTEL_PYTHON\week3.py", line 36, in <module>
+    print(remdup([3,1,3,5]))
+  File "z:\Python\GitRep\NPTEL_PYTHON\week3.py", line 27, in remdup
+    key=l[i]
+IndexError: list index out of range'''
 # a=B_s([3,1,3,5],9)
