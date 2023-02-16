@@ -50,8 +50,7 @@ Here are some examples to show how your function should work.
 [13, -344]'''
 
 def splitsum(l):
-     pos=0
-     neg=0
+     (pos,neg)=(0,0)
      for n in l:
          if n>0:
              pos=pos+n**2  
